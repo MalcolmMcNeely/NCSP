@@ -49,6 +49,7 @@ int GetShotLibrary(ShotLibrary* lib)
    return 0;
 }
 
+// Entry point via command line
 int GMain(CmdLnData& data)
 {
    ShotLibrary lib;
@@ -82,6 +83,7 @@ int GMain(CmdLnData& data)
    return 0;
 }
 
+// Entry point via NCSPLib API
 int GMain(PARAMS* params, 
 		    vector<int>* minCosts, 
 			 SolutionResult* solutionResult,

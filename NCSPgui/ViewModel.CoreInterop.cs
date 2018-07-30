@@ -25,15 +25,18 @@ namespace NCSPgui
          // Open communication pipe for reading
          HPipe = new NamedPipeServer(@"\\.\pipe\NCSPPipe1", 0);
          HPipe.MessageReceived += hPipe_MessageReceived;
+
          // Use Task to ensure this thread waits for instruction to return
          var startPipeTask = Task.Factory.StartNew(() => { HPipe.Start(); }).FailFastOnException();
 
          // Reset library settings
          Task resetTask = Task.Factory.StartNew(() => { NCSPLibReset(); }).FailFastOnException();
          resetTask.Wait();
+
          // Configure CSP
          Task setParamsTask = Task.Factory.StartNew(() => { NCSPSetParams(Model.ToParams()); }).FailFastOnException();
          setParamsTask.Wait();
+
          Task addCostsTask = Task.Factory.StartNew(() =>
          {
             foreach (var c in Model.MinimumCosts)
@@ -41,6 +44,7 @@ namespace NCSPgui
                NCSPAddMinCost(c);
             }
          }).FailFastOnException();
+
          addCostsTask.Wait();
 
          // Ugly, but the pipe server will block (listening) if we use wait/await

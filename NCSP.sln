@@ -16,6 +16,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NCSPgui", "NCSPgui\NCSPgui.
 		{625C1ED9-EE80-4AAE-B3D6-53D4813B297C} = {625C1ED9-EE80-4AAE-B3D6-53D4813B297C}
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{25F1ADAB-5684-4D5E-B6F2-7F075F30770A}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
