@@ -1,0 +1,14 @@
+﻿<UserControl x:Class="MControls.NTextBox"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="13" d:DesignWidth="20">
+   <Grid x:Name="LayoutRoot" Background="{StaticResource mainBackgroundColour}">
+      <TextBox x:Name="TextBox" 
+               TextAlignment="Justify"
+               Text="{Binding Path=NValue, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+               Padding="2,3,2,3"/>
+   </Grid>
+</UserControl>

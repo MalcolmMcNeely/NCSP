@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\XML">
+      <UniqueIdentifier>{ab9bb7f5-f878-48a5-8e01-1ccfc00ffe48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\XML">
+      <UniqueIdentifier>{b40dc3a7-8ed1-49bf-9456-5bb1b83f46df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Common">
+      <UniqueIdentifier>{7d423d1e-7ad0-4a44-9d93-bdff0c47383d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Common">
+      <UniqueIdentifier>{4d809dba-2217-4d75-8d0d-e8a4637a020a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Entry">
+      <UniqueIdentifier>{2b55d674-6411-4b61-8a1c-2bb0c891c840}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Entry">
+      <UniqueIdentifier>{30c3d96b-45d3-42f7-96b2-d3e5e0f31c87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Shots">
+      <UniqueIdentifier>{93fad700-35a9-460a-816c-68c3da2aa387}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Shots">
+      <UniqueIdentifier>{90cf730c-51a6-4794-a056-a35a09c17954}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CmdLn">
+      <UniqueIdentifier>{b2772935-b588-48de-911e-75acc0e919dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Solver">
+      <UniqueIdentifier>{7669d7fb-b095-4866-978b-dc5d9e07a868}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Solver">
+      <UniqueIdentifier>{547fd2f1-47d3-4c5f-ae7d-3c564733c247}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Constraint Profiles">
+      <UniqueIdentifier>{b614562d-9c1c-425b-bd2b-2dd5bb1747b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Constraint Profiles">
+      <UniqueIdentifier>{cc3fdffc-b13e-4e13-8dc7-f8b3f8610c1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Enums">
+      <UniqueIdentifier>{18476032-0f61-411d-94f4-60cfda22475d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Enums">
+      <UniqueIdentifier>{0b2f3378-78f8-4dcb-8847-43444bf71f69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CmdLn">
+      <UniqueIdentifier>{92d30861-4da3-43c4-924c-42221423002e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries">
+      <UniqueIdentifier>{bdc8f2cf-bfcb-4368-9bd3-0d023f14f408}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="common.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.h">
+      <Filter>Header Files\Shots</Filter>
+    </ClInclude>
+    <ClInclude Include="Shot.h">
+      <Filter>Header Files\Shots</Filter>
+    </ClInclude>
+    <ClInclude Include="ShotLibrary.h">
+      <Filter>Header Files\Shots</Filter>
+    </ClInclude>
+    <ClInclude Include="SharedDefs.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreamData.h">
+      <Filter>Header Files\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="ShotLibraryFilter.h">
+      <Filter>Header Files\Shots</Filter>
+    </ClInclude>
+    <ClInclude Include="GManager.h">
+      <Filter>Header Files\Solver</Filter>
+    </ClInclude>
+    <ClInclude Include="GWorker.h">
+      <Filter>Header Files\Solver</Filter>
+    </ClInclude>
+    <ClInclude Include="GWorkerOptions.h">
+      <Filter>Header Files\Solver</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GManagerOptions.h">
+      <Filter>Header Files\Solver</Filter>
+    </ClInclude>
+    <ClInclude Include="IConstraintProfile.h">
+      <Filter>Header Files\Constraint Profiles</Filter>
+    </ClInclude>
+    <ClInclude Include="HierarchProfile.h">
+      <Filter>Header Files\Constraint Profiles</Filter>
+    </ClInclude>
+    <ClInclude Include="GOutput.h">
+      <Filter>Header Files\Solver</Filter>
+    </ClInclude>
+    <ClInclude Include="StoryProfile.h">
+      <Filter>Header Files\Constraint Profiles</Filter>
+    </ClInclude>
+    <ClInclude Include="ConstraintEnums.h">
+      <Filter>Header Files\Enums</Filter>
+    </ClInclude>
+    <ClInclude Include="NarrativeEnums.h">
+      <Filter>Header Files\Enums</Filter>
+    </ClInclude>
+    <ClInclude Include="StoryProfileVariant.h">
+      <Filter>Header Files\Constraint Profiles</Filter>
+    </ClInclude>
+    <ClInclude Include="GTimer.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="CmdLnData.h">
+      <Filter>Header Files\CmdLn</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyxml2.h">
+      <Filter>Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="NCSPCmdLnArgs.h">
+      <Filter>Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="NCSPCmdLnOpt.h">
+      <Filter>Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="GResultContainers.h">
+      <Filter>Header Files\Solver</Filter>
+    </ClInclude>
+    <ClInclude Include="GFileGenerator.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Logger.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="NCSPEntry.h">
+      <Filter>Header Files\Entry</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files\Entry</Filter>
+    </ClCompile>
+    <ClCompile Include="Character.cpp">
+      <Filter>Source Files\Shots</Filter>
+    </ClCompile>
+    <ClCompile Include="Shot.cpp">
+      <Filter>Source Files\Shots</Filter>
+    </ClCompile>
+    <ClCompile Include="ShotLibrary.cpp">
+      <Filter>Source Files\Shots</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreamData.cpp">
+      <Filter>Source Files\XML</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="common.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="ShotLibraryFilter.cpp">
+      <Filter>Source Files\Shots</Filter>
+    </ClCompile>
+    <ClCompile Include="GWorker.cpp">
+      <Filter>Source Files\Solver</Filter>
+    </ClCompile>
+    <ClCompile Include="GManager.cpp">
+      <Filter>Source Files\Solver</Filter>
+    </ClCompile>
+    <ClCompile Include="GWorkerOptions.cpp">
+      <Filter>Source Files\Solver</Filter>
+    </ClCompile>
+    <ClCompile Include="GManagerOptions.cpp">
+      <Filter>Source Files\Solver</Filter>
+    </ClCompile>
+    <ClCompile Include="IConstraintProfile.cpp">
+      <Filter>Source Files\Constraint Profiles</Filter>
+    </ClCompile>
+    <ClCompile Include="HierarchProfile.cpp">
+      <Filter>Source Files\Constraint Profiles</Filter>
+    </ClCompile>
+    <ClCompile Include="GOutput.cpp">
+      <Filter>Source Files\Solver</Filter>
+    </ClCompile>
+    <ClCompile Include="StoryProfile.cpp">
+      <Filter>Source Files\Constraint Profiles</Filter>
+    </ClCompile>
+    <ClCompile Include="NarrativeEnums.cpp">
+      <Filter>Source Files\Enums</Filter>
+    </ClCompile>
+    <ClCompile Include="Logger.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="StoryProfileVariant.cpp">
+      <Filter>Source Files\Constraint Profiles</Filter>
+    </ClCompile>
+    <ClCompile Include="GTimer.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="CmdLnData.cpp">
+      <Filter>Source Files\CmdLn</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml2.cpp">
+      <Filter>Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="GFileGenerator.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="NCSPEntry.cpp">
+      <Filter>Source Files\Entry</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="NCSPCore.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="Data\ScreamData.xml">
+      <Filter>Resource Files</Filter>
+    </Xml>
+  </ItemGroup>
+</Project>

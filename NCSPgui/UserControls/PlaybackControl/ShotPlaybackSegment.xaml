@@ -1,0 +1,20 @@
+﻿<UserControl x:Class="MControls.ShotPlaybackSegment"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             Background="{StaticResource mainBackgroundColour}">
+   <UserControl.Resources>
+      <Style x:Key="buttonStyle" TargetType="Button">
+         <Setter Property="Width" Value="60"/>
+         <Setter Property="Height" Value="60"/>         
+      </Style>
+   </UserControl.Resources>
+   <StackPanel x:Name="LayoutRoot" Margin="2" PreviewMouseDown="LayoutRoot_MouseDown">
+      <Button x:Name="MainButton" 
+              Style="{StaticResource buttonStyle}" 
+              Content="{Binding ShotNameDisplayed, UpdateSourceTrigger=PropertyChanged}"
+              Tag="{Binding ShotId}"/>
+   </StackPanel>
+</UserControl>

@@ -1,0 +1,15 @@
+New Solution Narrative Options
+Initial
+	propagators: 603
+	branchers:   2
+
+Summary
+	runtime:      0.545 (545.000 ms)
+	solutions:    0
+	propagations: 84
+	nodes:        0
+	failures:     1
+	restarts:     0
+	no-goods:     0
+	peak depth:   0
+
